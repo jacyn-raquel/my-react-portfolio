@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+/*  min-height: 100%;*/
+  height: 22.5rem;
+}
+
+.description-body {
+/*  height: 150px;  */
+  overflow-y: auto;  
+}
+
+.card-body {
+  padding-right: 10px;
+}
+
+.prod-price{
+  color: orange;
+  font-weight: 500;
+
+}
+
+
