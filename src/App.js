@@ -7,6 +7,8 @@ import Home from './pages/Home';
 // Components
 import AppNavBar from './components/AppNavBar';
 import HeroSection from './components/HeroSection';
+import Tools from './components/Tools';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <AppNavBar/>
         <Container>
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Home/>}/>
+            <Route path="/#tools" element={<Tools/>} />
+            <Route path="/#footer" element={<Footer/>}/> 
           </Routes>
         </Container>
     </Router>
