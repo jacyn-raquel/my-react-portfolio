@@ -5,7 +5,7 @@ export default function HeroSection(){
 
 	const [title, setTitle] = useState()
 	return(
-		<Container>
+		<Container className="section" id="hero">
 			<Row>
 				<Col>
 					<h1> Hi, I'm Jacyn, a Web Developer!</h1>
