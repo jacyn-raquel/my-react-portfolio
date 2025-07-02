@@ -1,6 +1,12 @@
-$myColor: red;
+$myColor: #3EBB00;
+$myFont: "Roboto", sans-serif;
 
 // trial
+*{font-family: $myFont;}
+body{
+	text-align: center;
+}
+
 h1{color:$myColor;}
 
 
@@ -8,3 +14,6 @@ h1{color:$myColor;}
 .section{padding: 2rem;}
 
 // Hero Section
+#hero {
+
+}

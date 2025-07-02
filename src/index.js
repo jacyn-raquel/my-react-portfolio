@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
 import 'notyf/notyf.min.css';
 import App from './App';
 import './css/style.css';
+import './css/fonts.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

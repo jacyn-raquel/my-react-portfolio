@@ -1,5 +1,13 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
 h1 {
-  color: red;
+  color: #3EBB00;
 }
 
 .section {

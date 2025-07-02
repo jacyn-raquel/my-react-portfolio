@@ -5,7 +5,7 @@ import {useState, useEffect} from 'react';
 export default function Tools(){
 	return(
 		<>
-		<section>
+		<section className="section">
 			<content>
 				<Container>
 					<Row>

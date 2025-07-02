@@ -2,7 +2,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import {Link, NavLink} from 'react-router-dom';
 export default function Footer(){
 	return(
-		<Container className="bg-primary">
+		<Container className="bg-primary section">
 			<Row>
 				{/*Column 1*/}
 				<Col>

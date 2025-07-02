@@ -3,7 +3,7 @@ import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 
 export default function Project(){
 	return(
-		<section>
+		<section className="section">
 			<content>
 				<Container>
 					<Row>

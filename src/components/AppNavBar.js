@@ -1,8 +1,9 @@
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 
 export default function AppNavBar(){
-	return(<Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+	return(
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container >
         <Navbar.Brand href="#home">Jacyn's React Portfolio</Navbar.Brand>
         <div className="ms-auto">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
