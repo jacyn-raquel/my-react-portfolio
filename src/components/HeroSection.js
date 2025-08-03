@@ -1,9 +1,7 @@
 import {Container, Row, Col} from 'react-bootstrap';
-import {useState, useEffect} from 'react';
-
 export default function HeroSection(){
 
-	const [title, setTitle] = useState()
+	
 	return(
 		<section className="section" id="hero">
 			<content>
